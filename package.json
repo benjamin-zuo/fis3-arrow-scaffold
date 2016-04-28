@@ -1,6 +1,6 @@
 {
     "name": "fis3-arrow-scaffold",
-    "version": "0.0.1",
+    "version": "1.0.8",
     "description": "基于Fis3+Velocity的多业务模块化脚手架",
     "keywords": [
         "fis3",
