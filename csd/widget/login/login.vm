@@ -1,0 +1,32 @@
+<form action="#" method="post" id="form">
+    <div class="fm-list">
+        <div class="fm-list-header">请填写身份证上名称</div>
+        <div class="fm-list-body">
+            <div class="fm-list-item">
+                <div class="fm-list-label">真实姓名</div>
+                <div class="fm-list-control">
+                    <input type="text" name="username" placeholder="请输入中文名字">
+                </div>
+                <div class="fm-list-clear">
+                    <span class="fm-icon-clear"></span>
+                </div>
+            </div>
+            <div class="fm-list-item">
+                <div class="fm-list-label">密码</div>
+                <div class="fm-list-control">
+                    <input type="password" name="idcard" placeholder="请输入密码">
+                </div>
+                <div class="fm-list-clear">
+                    <span class="fm-icon-clear"></span>
+                </div>
+            </div>
+        </div>
+    </div>
+    <button type="button" class="fm-button orange" data-action="doSubmit">提交</button>
+</form>
+
+#script()
+
+    require(['./login'])
+    
+#end

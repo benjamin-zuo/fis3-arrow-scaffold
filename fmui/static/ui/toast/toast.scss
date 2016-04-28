@@ -1,0 +1,79 @@
+@charset "UTF-8";
+/**
+ * 
+ * @authors      Benjamin (cuew1987@gmail.com)
+ * @link         https://github.com/benjamin-zuo
+ * @date         2016-03-04 14:38:37
+ * @description  Toast 组件 
+ */
+
+@import '../../helper/css3';
+
+@-webkit-keyframes rotate {
+    0% {
+        @include rotate(0deg);
+    }
+    50% {
+        @include rotate(180deg);
+    }
+    100% {
+        @include rotate(360deg);
+    }
+}
+@keyframes rotate {
+    0% {
+        @include rotate(0deg);
+    }
+    50% {
+        @include rotate(180deg);
+    }
+    100% {
+        @include rotate(360deg);
+    }
+}
+
+.fm-toast {
+    position: fixed;
+    top: 30%;
+    left: 50%;
+    margin-left: -54px;
+    min-height: 40px;
+
+    &-body {
+        display: inline-block;
+        width: 90px;
+        padding: 10px;
+        border-radius: 10px;
+        opacity: .9;
+        
+        font-size: 13px;
+        color: #fff;
+        text-align: center;
+        background-color: #1f2337;
+        
+    }
+
+    &-icon {
+        display: block;
+        width: 36px;
+        height: 36px;
+        margin: 8px auto;
+        background: url(/static/ui/icon/toast.png) no-repeat;
+        @include background-size(160px auto);
+
+        &.icon-toast-success {
+            background-position: 0 0;   
+        } 
+        &.icon-toast-fail {
+            background-position: -40px 0;   
+        }
+        &.icon-toast-loading {
+            @include animation(rotate linear 2.6s infinite);
+            background-position: -80px 0;   
+        }
+        &.icon-toast-network {
+            background-position: -120px 0;   
+        }
+    }
+}
+

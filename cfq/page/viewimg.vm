@@ -1,0 +1,11 @@
+#set($title="调用公共图片")
+
+#extends("layout.vm")
+
+    #block("body_content")
+    
+        #widget("/widget/viewimg/viewimg.vm")
+
+    #end
+
+#end

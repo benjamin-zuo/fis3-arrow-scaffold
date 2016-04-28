@@ -1,0 +1,11 @@
+#set($title="移动端图片轮播")
+
+#extends("layout.vm")
+
+    #block("body_content")
+    
+        #widget("/widget/slider/slider.vm")
+
+    #end
+
+#end
