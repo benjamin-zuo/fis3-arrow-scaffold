@@ -20,7 +20,9 @@ $ fis3 init zuojj/fis3-arrow-scaffold
 或者
 $ git clone https://github.com/zuojj/fis3-arrow-scaffold.git
 $ cd  fis3-arrow-scaffold
-$ npm install // 安装依赖
+// 安装依赖
+$ npm install --registry=https://registry.npm.taobao.org
+
 ```
 
 ## 运行&预览
