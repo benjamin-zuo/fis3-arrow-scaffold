@@ -4,7 +4,7 @@
   
 ## FMUI
 具体参见FMUI README.md
-<img src="https://raw.githubusercontent.com/benjamin-zuo/fis3-arrow-scaffold/master/screenshot-fmui.png" width="375" height="667" alt="FMUI">
+<img src="https://raw.githubusercontent.com/zuojj/fis3-arrow-scaffold/master/screenshot-fmui.png" width="375" height="667" alt="FMUI">
 
 ## 安装fis3
 建议fis3 官网支持Node版本
@@ -16,9 +16,9 @@ $ npm install -g fis3
 ```
 $ mkdir scaffold-demo
 $ cd scaffold-demo
-$ fis3 init benjamin-zuo/fis3-arrow-scaffold
+$ fis3 init zuojj/fis3-arrow-scaffold
 或者
-$ git clone https://github.com/benjamin-zuo/fis3-arrow-scaffold.git
+$ git clone https://github.com/zuojj/fis3-arrow-scaffold.git
 $ cd  fis3-arrow-scaffold
 $ npm install // 安装依赖
 ```
@@ -116,7 +116,7 @@ fis3 release prod
 
 (The MIT License)
 
-Copyright (c) 2016 benjamin-zuo &lt;cuew1987@gmail.com&gt;
+Copyright (c) 2016 zuojj &lt;cuew1987@gmail.com&gt;
 
 Permission is hereby granted, free of charge, to any person obtaining
 a copy of this software and associated documentation files (the
