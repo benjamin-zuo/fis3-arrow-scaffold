@@ -1,5 +1,5 @@
 // 命名空间
-fis.set('namespace', 'common');
+fis.set('namespace', 'home');
 
 fis
 .match('/widget/**.vm', {
@@ -8,10 +8,6 @@ fis
 .match('/static/**.js', {
     isMod: true
 })
-// 公共模块图片记入map.json
-.match('/static/img/demo/*.{png,jpg}', {
-    useMap: true
-});
 
 /**
  * -------------------------------------------------------
@@ -46,6 +42,8 @@ fis.media('prod')
 });
 
 
+
+
 /**
  * -------------------------------------------------------
  * RD Environment
@@ -66,4 +64,3 @@ fis.media('rd')
     }),
     rExt: '.html'
 });
-

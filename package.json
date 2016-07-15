@@ -1,6 +1,6 @@
 {
     "name": "fis3-arrow-scaffold",
-    "version": "1.0.10",
+    "version": "1.0.11",
     "description": "基于Fis3+Velocity的多业务模块化脚手架",
     "keywords": [
         "fis3",
@@ -18,18 +18,6 @@
         "url": "git://github.com/zuojj/fis3-arrow-scaffold.git"
     },
     "dependencies": {
-        "fis3-arrow": "~0.0.8",
-        "fis3-hook-amd": "~0.1.2",
-        "fis3-hook-commonjs": "~0.1.14",
-        "fis3-packager-deps-pack": "~0.0.1",
-        "fis3-preprocessor-extlang": "1.1.7",
-        "fis-parser-utc": "0.0.2",
-        "fis-parser-marked": "0.0.6",
-        "fis3-server-jello": "~0.0.6"
-    },
-    "devDependencies": {
-        "mocha": "*",
-        "should": "*"
     },
     "scripts": {
         "test": "echo \"Error: no test specified\" && exit 1"
