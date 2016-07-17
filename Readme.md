@@ -12,6 +12,7 @@ $ git clone https://github.com/zuojj/fis3-arrow-scaffold.git
 $ cd  fis3-arrow-scaffold
 ```
 ## 目录树
+```
 ├─common
 │  ├─page
 │  └─static
@@ -25,6 +26,7 @@ $ cd  fis3-arrow-scaffold
     └─widget
         ├─login
         └─viewimg
+```
 
 ## 引入公共组件库模块
 ```
