@@ -1,11 +1,12 @@
 {
     "name": "fis3-arrow-scaffold",
-    "version": "1.0.12",
-    "description": "基于Fis3+Velocity的多业务模块化脚手架",
+    "version": "1.0.13",
+    "description": "基于fis3-arrow(fisa)的多业务模块化脚手架",
     "keywords": [
         "fis3",
         "jello",
-        "arrow"
+        "fis3-arrow",
+        "fisa"
     ],
     "author": "benjamin <cuew1987@gmail.com>",
     "license": "BSD",

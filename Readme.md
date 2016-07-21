@@ -1,6 +1,6 @@
 
 # fis3-arrow-scaffold
-  基于[Fis3-arrow(fisa)](https://www.npmjs.com/package/fis3-arrow)的多业务模块化脚手架
+  基于[fis3-arrow(fisa)](https://www.npmjs.com/package/fis3-arrow)的多业务模块化脚手架
 
 ## 初始化
 ```
